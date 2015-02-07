@@ -1,2 +1,2 @@
 #!/bin/sh
-go run extend.go | diff - output.txt
+go run *.go | diff - output.txt
