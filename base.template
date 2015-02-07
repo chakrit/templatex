@@ -1,0 +1,5 @@
+<html>
+<head><title>Extends.go base template</title></head>
+<body>
+{{template "content" .}}
+</body>

@@ -1,0 +1,4 @@
+{{extend "base.template"}}
+{{define "content"}}
+<p>This is MAIN.TEMPLATE</p>
+{{end}}
