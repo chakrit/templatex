@@ -2,6 +2,7 @@ package main
 
 import "os"
 import "html/template"
+// import "text/template" // also works the same.
 import "text/template/parse"
 import "sort"
 import "fmt"
@@ -42,14 +43,16 @@ func preprocess(t *template.Template) (*template.Template, error) {
 	}
 
 	for _, extension := range extends {
-		if _, ok := lookup[extension]; !ok {
-			log("extends:", extension)
-			if update, e := t.ParseFiles(extension); e != nil {
-				return result, e
-			} else {
-				result = update
-				updated = true
-			}
+		if _, ok := lookup[extension]; ok {
+			continue
+		}
+
+		log("extends:", extension)
+		if update, e := t.ParseFiles(extension); e != nil {
+			return result, e
+		} else {
+			result = update
+			updated = true
 		}
 	}
 
