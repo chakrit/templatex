@@ -1,7 +1,7 @@
 # EXTENDS for go templates.
 
 This code is a minimal 1-file implementation for adding `extends` support to go templates.
-The `preprocess` functions works on both `html/template` and `go/template`.
+The `preprocess` functions works on both `html/template` and `text/template`.
 
 ### USAGE:
 
