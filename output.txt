@@ -1,0 +1,7 @@
+<html>
+<head><title>Extends.go base template</title></head>
+<body>
+
+<p>This is MAIN.TEMPLATE</p>
+
+</body>
