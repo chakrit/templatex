@@ -1,4 +1,4 @@
-{{extend "base.template"}}
-{{define "content"}}
+{{extends "middle.template"}}
+{{define "subcontent"}}
 <p>This is MAIN.TEMPLATE</p>
 {{end}}

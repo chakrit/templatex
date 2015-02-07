@@ -2,6 +2,10 @@
 <head><title>Extends.go base template</title></head>
 <body>
 
+<div>
+	
 <p>This is MAIN.TEMPLATE</p>
+
+</div>
 
 </body>

@@ -1,0 +1,6 @@
+{{extends "base.template"}}
+{{define "content"}}
+<div>
+	{{template "subcontent" .}}
+</div>
+{{end}}
