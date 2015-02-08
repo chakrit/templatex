@@ -57,7 +57,7 @@ With the above steps we achieve the following:
 * Each template specifies their own requirements inside the template file itself without
   requiring any other module's involvements.
 
-### TODO
+### TODO:
 
 Things that `extends.go` is yet able to do but which might be of great benefit:
 
