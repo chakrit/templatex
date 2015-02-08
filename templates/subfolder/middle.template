@@ -1,6 +1,7 @@
-{{extends "base.template"}}
+{{extends "templates/base.template"}}
 {{define "content"}}
 <div>
+	<h1>MIDDLE.TEMPLATE header</h1>
 	{{template "subcontent" .}}
 </div>
 {{end}}

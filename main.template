@@ -1,4 +1,0 @@
-{{extends "middle.template"}}
-{{define "subcontent"}}
-<p>This is MAIN.TEMPLATE</p>
-{{end}}

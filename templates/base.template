@@ -1,0 +1,5 @@
+<html>
+<head><title>BASE.TEMPLATE title</title></head>
+<body>
+{{template "content" .}}
+</body>
