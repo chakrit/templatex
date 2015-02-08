@@ -48,8 +48,8 @@ We work arond this with the following:
    `{{extends}}` fragments.
 5. Loads the extension template and adds it to the top-level template parse tree.
 6. Repeat 3-5 for the recently loaded template until we have no more templates to load.
-7. Always render from the top-most template (possibly the only file without any
-   `{{extends}}`.
+7. Always render from the top-most template (usually the only file without any
+   `{{extends}}` in it).
 
 With the above steps we achieve the following:
 
