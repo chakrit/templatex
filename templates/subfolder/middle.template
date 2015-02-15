@@ -1,4 +1,4 @@
-{{extends "templates/base.template"}}
+{{extends "../base.template"}}
 {{define "content"}}
 <div>
 	<h1>MIDDLE.TEMPLATE header</h1>

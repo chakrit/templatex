@@ -1,4 +1,4 @@
-{{extends "templates/subfolder/middle.template"}}
+{{extends "middle.template"}}
 {{define "subcontent"}}
 <p>MAIN.TEMPLATE content</p>
 {{end}}
