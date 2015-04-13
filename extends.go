@@ -19,6 +19,14 @@ type Template struct {
 	wd string
 }
 
+func Must(t *Template, e error) *Template {
+	if e != nil {
+		panic(e)
+	}
+
+	return t
+}
+
 func (t *Template) ExecuteTemplate(wr io.Writer, name string, data interface{}) error {
 	if filename, e := normalizeFilename(t.wd, name); e != nil {
 		return e
