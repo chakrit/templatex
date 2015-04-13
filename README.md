@@ -1,6 +1,7 @@
 # EXTENDS for go templates.
 
 [![Build Status](https://travis-ci.org/chakrit/templatex.svg)](https://travis-ci.org/chakrit/templatex)
+[![GoDoc](https://godoc.org/github.com/chakrit/templatex?status.svg)](https://godoc.org/github.com/chakrit/templatex)
 
 This code is a minimal 1-file implementation of a thin layer on top of `html/template`
 that provides the following features:
