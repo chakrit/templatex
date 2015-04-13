@@ -1,0 +1,12 @@
+<html>
+<head><title>BASE.TEMPLATE title</title></head>
+<body>
+
+<div>
+	<h1>MIDDLE.TEMPLATE header</h1>
+	
+<p>MAIN.TEMPLATE content</p>
+
+</div>
+
+</body>
