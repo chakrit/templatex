@@ -64,5 +64,6 @@ With the above steps we achieve the following:
 
 * Proper tests.
 * Benchmarks and optimizations.
+* Extract common interface between html/template and text/template
 * Better error messages. (provide parsing context in all errors.)
 
